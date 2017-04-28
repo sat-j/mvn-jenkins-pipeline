@@ -1,6 +1,6 @@
 #!groovy
 pipeline{
-	agents: any
+	agent: any
 	tools { 
         maven 'M3'
         jdk 'JDK'
