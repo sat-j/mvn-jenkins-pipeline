@@ -1,6 +1,6 @@
 #!groovy
 pipeline{
-	agent any
+	agent Ansible-vagrant
 	tools { 
         maven 'M3'
         jdk 'JDK'
